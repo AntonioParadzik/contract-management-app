@@ -1,0 +1,36 @@
+.contracts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.contracts-header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: white;
+  margin: 1rem 1.2rem 2rem 1.2rem;
+  border: 1px solid #cfcece;
+  border-radius: 10px;
+}
+
+.contracts-body {
+  box-sizing: border-box;
+  margin: 0 1.2rem 1rem 1.2rem;
+  background-color: white;
+  height: 100%;
+  border: 1px solid #cfcece;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.ant-empty-normal {
+  display: none;
+}
+
+.ant-table-cell {
+  max-width: 200px;
+}
